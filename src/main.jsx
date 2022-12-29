@@ -1,11 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Route, } from 'react-router-dom';
-import Home from "./routes/Home"
-import NewForm from "./routes/NewForm"
-import ConfigForm from "./routes/ConfigForm"
-import App from './App'
-import './Index.css'
+import Home from "./routes/Home";
+import NewForm from "./routes/NewForm";
+import ConfigForm from "./routes/ConfigForm";
+import ManageForm from "./routes/ManageForm";
+import App from './App';
+import './Index.css';
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path: "/config-form",
                 element: <ConfigForm />
+            },
+            {
+                path: "/form/:id",
+                element: <ManageForm />
             }
         ]
     }
