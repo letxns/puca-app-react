@@ -8,7 +8,7 @@
 
 .navbar ul {
     display: flex;
-    margin: 1em;
+    gap: 1;
 }
 
 .navbar h2 a {
@@ -23,7 +23,7 @@
 }
 
 .btn-gerenciar {
-    max-width: 20%;
+    max-width: 25%;
     text-align: center;
     background-color: #fff;
     color: #0e1217;
@@ -37,4 +37,13 @@
 .btn-gerenciar:hover {
     color: #fff;
     background-color: #0e1217;
+}
+
+@media (max-width: 425px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar h2 {
+        margin: 0.5em 0;
+    }
 }

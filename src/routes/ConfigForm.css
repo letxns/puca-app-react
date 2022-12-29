@@ -1,0 +1,27 @@
+.btn-enviar {
+    max-width: 50%;
+    text-align: center;
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    padding: 0.5em 0.5em;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn-enviar:hover, .btn-add:hover {
+    background-color: #f3f4f6;
+}
+
+.btn-add{
+    max-width: 50%;
+    text-align: center;
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    padding: 0.5em 0.5em;
+    cursor: pointer;
+    margin: 1em;
+}
