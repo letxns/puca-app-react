@@ -1,0 +1,23 @@
+.home h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1em;
+    /* margin-bottom: 1em; */
+    margin: 0 1em 1.5em 2em;
+
+}
+
+.form p::first-letter, .form h2::first-letter{
+    text-transform: uppercase;
+}
+
+.form h2, .form p {
+    margin-bottom: 1em;
+}
