@@ -17,8 +17,8 @@ const NewForm = () => {
             console.log("deu bom")            
         })
 
-        .catch(() => {
-            console.log("deu ruim")
+        .catch((error) => {
+            console.log("deu ruim", error)
         })
 
         // navigate('/form');
