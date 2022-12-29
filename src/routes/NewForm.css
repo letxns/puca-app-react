@@ -1,0 +1,27 @@
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.new-form h2 {
+    text-align: center;
+    margin: 1em;
+}
+
+.new-form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+
+.new-form-control label {
+    margin: 0.5em 0;
+}
+
+.new-form-control input, .new-form-control textarea {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
