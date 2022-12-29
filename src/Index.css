@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+body {
+    background-color: #babdc4;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+    transition: .2s;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+p {
+    color: #474646;
+}
