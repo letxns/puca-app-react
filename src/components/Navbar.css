@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    justify-content: space-between;
+    background-color: #17193e;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 1em;
+}
+
+.navbar h2 a {
+    opacity: 1;
+}
+
+.form-btn {
+    border: 1px solid #fff;
+    border-radius: 0.8em;
+    padding: 0.5em 1em;
+    margin: 1em;
+}
+
+.btn-gerenciar {
+    max-width: 20%;
+    text-align: center;
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.btn-gerenciar:hover {
+    color: #fff;
+    background-color: #0e1217;
+}
