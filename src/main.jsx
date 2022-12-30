@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Route, } from 'react-router-dom';
-import Home from "./routes/Home";
-import NewForm from "./routes/NewForm";
-import ConfigForm from "./routes/ConfigForm";
-import ManageForm from "./routes/ManageForm";
+import Home from "./pages/Home";
+import NewForm from "./pages/NewForm";
+import ConfigForm from "./pages/ConfigForm";
+import ManageForm from "./pages/ManageForm";
 import App from './App';
 import './Index.css';
 

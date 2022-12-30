@@ -3,30 +3,33 @@ import { useState, useEffect, React} from 'react';
 import './Home.css'
 
 const ManageForm = () => {
+    
+    // const [id, setId] = useState([2])
+    const [form, setForm] = useState([])
+    const getForm = async() => {
 
-    const [id, setId] = useState(0)
-    const [form, setForms] = useState([])
-    const getForms = async() => {
         try {
-            const response = await formFetch.get(`/api/form/${id}`)
+            const response = await formFetch.get(`/api/form/`)
             const data = response.data;
 
             console.log(data)
 
-            setId(data)
+            setForm(data)
+
         } catch (error) {
             console.log(error)
         }
+        // console.log(id)
     }
 
+
     useEffect(() => {
-        getForms()
+        getForm()
     }, [])
 
     return (
-        <div className='home'>
-            <h1>Últimos produtos</h1>
-            {form.length === 0 ? 
+        <div>
+            {form === 0 ? 
             <p> Carregando dados... </p> : (
                 form.map((form) => (
                     <div className="form" key={form.id}>
